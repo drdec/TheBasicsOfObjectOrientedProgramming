@@ -53,6 +53,7 @@
                 }
             }
         }
+        
 
         public Student()
         {
@@ -76,8 +77,8 @@
 
         public void PrintInfo()
         {
-            Console.WriteLine($"Фамилия -{SecondName}\n" +
-                              $"Имя -{FirstName}\n" +
+            Console.WriteLine($"Фамилия - {SecondName}\n" +
+                              $"Имя - {FirstName}\n" +
                               $"Возраст - {Age}\n" +
                               $"Пол - {Sex}\n" +
                               $"Курс - {Course}\n" +

@@ -22,8 +22,7 @@
         public string SecondName { get; set; }
         public string Sex { get; set; }
         public string Discipline { get; set; }
-
-
+        
         public Teacher()
         {
             Age = 17;
@@ -44,8 +43,8 @@
 
         public void PrintInfo()
         {
-            Console.WriteLine($"Фамилия -{SecondName}\n" +
-                              $"Имя -{FirstName}\n" +
+            Console.WriteLine($"Фамилия - {SecondName}\n" +
+                              $"Имя - {FirstName}\n" +
                               $"Возраст - {Age}\n" +
                               $"Пол - {Sex}\n" +
                               $"Дисциплина - {Discipline}");
